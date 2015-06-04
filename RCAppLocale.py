@@ -264,7 +264,7 @@ if __name__ == "__main__":
     try:
         print "Using language %s" % Language
     except NameError:
-        print "[!] Language variable not set"
+        print "[!] Language variable not set."
         print "[!] Edit this script with a text editor and uncomment the desired language."
         quit()
     
